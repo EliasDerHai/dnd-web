@@ -1,0 +1,4 @@
+
+
+<app-button (action)="fileInput.click()">Choose File</app-button>
+<input hidden (change)="onFileSelected($event)" #fileInput type="file" id="file">
